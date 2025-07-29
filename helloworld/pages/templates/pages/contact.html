@@ -1,0 +1,15 @@
+{%extends 'pages/base.html'%}
+
+{%block title%}{{title}}{%endblock%}
+{% block header_title %} {{subtitle}} {% endblock %} 
+
+{%block content%}
+<div class="container">
+    <div class="row">
+            <p class="lead">Email: {{email}}</p>
+            <p class="lead">Address: {{address}}</p>
+            <p class="lead">Phone Number: {{phoneNumber}}</p>
+    </div>
+</div>
+{%endblock%}
+
